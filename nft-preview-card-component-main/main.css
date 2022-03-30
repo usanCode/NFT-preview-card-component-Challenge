@@ -9,7 +9,6 @@ html{
 body{
 
     background-color: rgb(10, 8, 41); 
-    width: 100%;
     justify-content: justify;
     margin:auto;
     padding:auto;
@@ -26,8 +25,8 @@ body{
     margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top:5%;
-    margin-bottom:5%;
+    margin-top:7%;
+    margin-bottom:7%;
     row-gap:0.5rem;
     
     
@@ -85,8 +84,10 @@ body{
     color: white;
 }
 
-h4{
+h1{
     color: hsl(0, 0%, 100%);
+    font-size:18px;
+    font-weight:600;
 }
 
 h4:active{
