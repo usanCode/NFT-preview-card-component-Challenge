@@ -26,6 +26,8 @@ body{
     margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
+    margin-top:5%;
+    margin-bottom:5%;
     row-gap:0.5rem;
     
     
@@ -74,23 +76,7 @@ body{
     
 }
 
-/*
-.firstPic{
-    width:100%;
-    height:100%;
-    border-radius: 0.3rem;
 
-    
-
-}
-
-.firstPic:active{
-    cursor: pointer;
-    background-color: hsl(178, 100%, 50%) ;
-    background-image: url(./images/image-equilibrium.jpg);
-    background-blend-mode: normal;
-}
-*/
 .secondContainer{
     grid-column-start: 1;
     grid-column-end: 2;
@@ -124,7 +110,7 @@ font-size:5px;
 }
 
 li{
-  
+  list-style-type: none;
     padding: auto;    
     
 }
