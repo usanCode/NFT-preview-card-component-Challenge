@@ -34,7 +34,7 @@ body{
 .grid-container{
     display: grid;
     grid-template-columns: 19rem;
-    grid-template-rows: 20rem 10rem 5rem 4rem ;
+    grid-template-rows: 20rem 11rem 4rem 4rem ;
     padding:0.1rem;
     border-radius: 2rem;
     z-index: 2;
@@ -86,7 +86,7 @@ body{
 
 h1{
     color: hsl(0, 0%, 100%);
-    font-size:18px;
+    font-size:15px;
     font-weight:600;
 }
 
