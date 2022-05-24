@@ -10,18 +10,18 @@ body{
 
     background-color: rgb(10, 8, 41); 
     justify-content: justify;
-    margin:auto;
-    padding:auto;
+    
+    
     font-family:Outfit ;
     width: 100%;
 }
 
 .frame{
     background-color: hsl(216, 50%, 16%);
-    width:21rem;
-    height:40rem;
+    width: 28rem;
+    height:51rem;
     border-radius: 0.5rem;
-    margin-top:2rem;
+   padding-top: 0.5rem;
     margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
@@ -33,14 +33,14 @@ body{
 }
 .grid-container{
     display: grid;
-    grid-template-columns: 19rem;
-    grid-template-rows: 20rem 11rem 4rem 4rem ;
-    padding:0.1rem;
+    grid-template-columns: 25rem;
+    grid-template-rows: 25rem 13rem 6rem 6rem ;
+    padding:0.3rem;
     border-radius: 2rem;
     z-index: 2;
     justify-content: center;
     
-    ;
+    
 }
 .firstContainer{
     grid-column-start: 1;
@@ -72,6 +72,7 @@ body{
     height:90%;
     border-radius: 0.3rem;
     width:100%;
+    cursor: pointer;
     
 }
 
@@ -82,17 +83,19 @@ body{
     grid-row-start: 2;
     grid-row-end: 3;
     color: white;
+    padding-top: 0.5rem;
+   
 }
 
 h1{
     color: hsl(0, 0%, 100%);
-    font-size:15px;
+    font-size:18px;
     font-weight:600;
 }
 
-h4:active{
+h1:active{
     color:hsl(178, 100%, 50%)  ;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .thirdContainer{
@@ -113,11 +116,12 @@ font-size:5px;
 li{
   list-style-type: none;
     padding: auto;    
+    font-size: 18px;
     
 }
 .listItem1{
     float:left;
-    padding-right: 1.7rem; 
+    padding-right: 8.5rem; 
     
 }
 
@@ -127,11 +131,11 @@ li{
 }
 .spanOne{
     color: hsl(178, 100%, 50%);
-    font-size: 15px;
+    font-size: small;
 }
 .spanTwo{
     color: hsl(215, 51%, 70%);
-    font-size: 15px;
+    font-size: small;
 }
 
 .fourthContainer{
@@ -140,27 +144,30 @@ li{
     grid-row-start: 4;
     grid-row-end: 5;
     color: white;
-    padding-top: 1rem;
+    padding-bottom: 1rem;
     display: flex;
 }
 
 .pic{
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2.3rem;
+    height: 2.3rem;
     border-radius: 50%;
     border: solid 0.1rem white;
-    margin-top: 0.5rem;
-    margin-right: 0.4rem;
+    margin-top: 0.3rem;
+    margin-right: 0.5rem;
    
     
 }
 .para{
-    font-size: 15px;
+    font-size: 18px;
     color: hsl(215, 51%, 70%);
     text-align: left;
+    font-weight:300 ;
+    
+    font-family:Outfit ;
 }
 .jules{
-    font-size: 14px;
+    font-size: 18px;
     
 }
 .creation{
@@ -174,3 +181,9 @@ li{
     color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
+hr{
+    margin-top: 1rem;
+   border-color: hsl(215, 32%, 27%);
+
+}
+
