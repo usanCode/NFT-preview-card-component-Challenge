@@ -7,8 +7,10 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 
+![desktop-preview](https://user-images.githubusercontent.com/60264357/170010887-de0c280a-5302-44dc-ad23-30d7e181d1ac.jpg)
 
-![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
+
+
 
 ## Welcome!
 
